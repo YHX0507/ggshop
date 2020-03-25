@@ -1,0 +1,289 @@
+.banner {
+  width: 100%;
+  height: 300px;
+  background: url('../images/ninenine.png') no-repeat center;
+}
+.content {
+  background: url('../images/bg.png') no-repeat;
+}
+.content .gate {
+  width: 1100px;
+  box-sizing: border-box;
+  line-height: 60px;
+  height: 60px;
+  font-size: 14px;
+}
+.content .gate ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.content .gate ul li {
+  float: left;
+  margin-right: 10px;
+  height: 42px;
+  padding: 0 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.content .gate ul li span {
+  font-size: 14px;
+  color: #333333;
+}
+.content .gate ul li span:hover {
+  color: #FF3377;
+}
+.content .gate ul .active {
+  border-bottom: 2px solid #FF3377;
+}
+.content .gate ul .active span {
+  color: #FF3377;
+}
+.content .prices {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+}
+.content .prices span {
+  width: 68px;
+  height: 36px;
+  line-height: 36px;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+  border-right: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid rgba(0, 0, 0, 0);
+  margin-top: -1px;
+  margin-left: -1px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.content .prices span i {
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+  background: url('../images/spirit_other.png') 0 -261px;
+  margin-left: 5px;
+}
+.content .prices span:hover {
+  color: #FF3377;
+}
+.content .prices .active {
+  border: 1px solid #ff337a;
+  color: #ff337a;
+}
+.content .prices .find {
+  margin-top: 4px;
+  margin-left: 5px;
+  display: inline-block;
+  height: 36px;
+}
+.content .prices .find input {
+  float: left;
+  width: 60px;
+  height: 24px;
+  border: 1px solid #e2e2e2;
+  padding-left: 5px;
+  background: #f6f6f6;
+}
+.content .prices .find .qj {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.content .prices .find .sub {
+  float: left;
+  width: 52px;
+  height: 24px;
+  margin-left: 5px;
+  margin-top: 1px;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #FF337A;
+  color: #fff;
+}
+.content .prices .gpages {
+  float: right;
+  margin-top: 10px;
+  color: #666;
+  font-family: Arial;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.content .prices .gpages b {
+  float: left;
+}
+.content .prices .gpages .currentpages {
+  color: #FF3377;
+}
+.content .prices .gpages img {
+  float: left;
+  margin-left: 10px;
+}
+.content .goods {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.content .goods .good li {
+  margin-top: 10px;
+  width: 266px;
+  height: 360px;
+  padding: 10px 10px 0px 10px;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 12px;
+  position: relative;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.content .goods .good li a {
+  display: block;
+  width: 244px;
+  height: 348px;
+}
+.content .goods .good li a img {
+  width: 246px;
+  height: 246px;
+  vertical-align: middle;
+}
+.content .goods .good li a .price {
+  margin-bottom: 10px;
+  margin-top: 13px;
+  color: #FF3377;
+  font-size: 12px;
+  font-family: "Simsun";
+}
+.content .goods .good li a .price .pricelast {
+  color: #FF3377;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Microsoft YaHei";
+}
+.content .goods .good li a .price .pricepre {
+  font-size: 24px;
+  margin-right: 8px;
+  font-family: "Microsoft YaHei";
+}
+.content .goods .good li a .price s {
+  font-size: 14px;
+  margin-left: 9px;
+  color: #aaa;
+  font-family: Arial, "Microsoft YaHei";
+}
+.content .goods .good li a .bt {
+  width: 100%;
+  height: 12px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.content .goods .good li a .bt span {
+  line-height: 12px;
+  font-size: 12px;
+  color: #333;
+  font-family: "Simsun";
+}
+.content .goods .good li a .info {
+  height: 24px;
+  line-height: 24px;
+  color: #FF6600;
+  font-family: Arial, '"Microsoft YaHei"';
+  font-size: 14px;
+}
+.content .goods .good li a .info .xl {
+  color: #888;
+  margin-right: 12px;
+  font-family: "Simsun";
+}
+.content .goods .good li a .info .q {
+  width: 85px;
+  height: 24px;
+  line-height: 24px;
+  color: #FF6600;
+  font-family: Arial, '"Microsoft YaHei"';
+  font-size: 14px;
+}
+.content .goods .good li a .info .q i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url('../images/quan.png');
+}
+.content .goods .good li a .info .q span {
+  padding: 0 5px;
+  height: 22px;
+  border-top: 1px solid #FF337A;
+  border-bottom: 1px solid #FF337A;
+  border-right: 1px solid #FF337A;
+  line-height: 23px;
+  color: #FF337A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 600;
+  margin-right: 0;
+}
+.content .goods .good li:nth-child(4n) {
+  margin-right: 0;
+}
+.content .goods .good li:hover {
+  border: 1px solid #FF3377;
+}
+.content .pages {
+  position: relative;
+  top: 0;
+  left: 15%;
+  z-index: 10;
+  height: 38px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  padding-bottom: 50px;
+}
+.content .pages div {
+  float: left;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  border: 1px solid #e2e2e2;
+}
+.content .pages div:hover {
+  color: #FF3377;
+}
+.content .pages span {
+  display: block;
+  float: left;
+  width: 40px;
+  height: 36px;
+  cursor: pointer;
+  border: 1px solid #e2e2e2;
+  margin-left: -1px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 36px;
+  color: #333;
+}
+.content .pages .active {
+  background-color: #FF3377;
+  color: #ffffff;
+}
+.content .pages span:hover {
+  background-color: #FF3377;
+}
+.content .pages span:hover {
+  color: #ffffff;
+}
+.content .pages .special {
+  border: none;
+}
+.content .pages .prepage {
+  margin-right: 10px;
+}
+.content .pages .nextpage {
+  margin-left: 10px;
+}

@@ -1,0 +1,257 @@
+header {
+  background-color: #fff;
+  width: 100%;
+}
+header .search {
+  height: 120px;
+}
+header .search .logo {
+  display: inline-block;
+  width: 160px;
+  height: 60px;
+  margin-top: 34px;
+}
+header .search .logo img {
+  display: block;
+  height: 60px;
+  width: 100%;
+}
+header .search .keyword {
+  width: 430px;
+  height: 36px;
+  margin: 42px 0 0 128px;
+  position: relative;
+}
+header .search .keyword .inputico {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 13px;
+  left: 9px;
+  background: url('../images/spirit.png') 0 -175px;
+}
+header .search .keyword .searchval {
+  width: 350px;
+  height: 36px;
+  font-size: 12px;
+  border: 2px solid #FF3377;
+  padding-left: 25px;
+  color: #a7a7a7;
+}
+header .search .keyword .searchbtn {
+  width: 50px;
+  height: 40px;
+  background-color: #FF3377;
+  border: none;
+  line-height: 40px;
+  text-align: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+header .search .keyword .searchbtn .searchico {
+  display: inline-block;
+  margin-top: 9px;
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  background: url('../images/spirit.png') -33px -175px;
+}
+header .nav {
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px solid #333;
+  line-height: 40px;
+  position: relative;
+  font-size: 16px;
+}
+header .nav .navlist li {
+  float: left;
+  font-size: 16px;
+  margin-right: 50px;
+}
+header .nav .navlist li a {
+  color: #333;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+header .nav .navlist li a:hover {
+  color: #FF3377;
+}
+header .nav .navlist li .navgate {
+  display: none;
+  margin-top: 42px;
+  width: 160px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  background-color: #FFE5E8;
+  box-sizing: border-box;
+  font-size: 14px;
+  z-index: 10;
+}
+header .nav .navlist li .navgate li {
+  padding: 0 20px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  margin: 0;
+}
+header .nav .navlist li .navgate li a {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  color: #333;
+  font-weight: 100;
+  text-align: left;
+}
+header .nav .navlist li .navgate li a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+header .nav .navlist li .navgate li:hover {
+  background-color: #fff;
+}
+header .nav .navlist .allgate {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  background: #FF3377;
+}
+header .nav .navlist .allgate .allgatea {
+  color: #ffffff;
+}
+header .nav .navlist .allgate .allgatea .menu {
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  background: url('../images/menu.png');
+}
+footer {
+  height: 168px;
+  position: relative;
+  background-color: #333;
+}
+footer .footernav {
+  width: 550px;
+  height: 60px;
+  font-size: 16px;
+  margin-top: 40px;
+  color: #cccccc;
+}
+footer .footernav span {
+  width: 1px;
+  height: 50px;
+  background: #999;
+  left: 0;
+  margin-right: 10px;
+}
+footer .footernav p {
+  margin-bottom: 10px;
+}
+footer .footernav a {
+  color: #cccccc;
+  margin-right: 35px;
+}
+footer .footernav a:hover {
+  color: #FF3377;
+}
+footer .footer-copyright {
+  width: 100%;
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  background-color: #2B2B2B;
+}
+footer .footer-copyright img {
+  vertical-align: middle;
+}
+.hiddensearch {
+  display: none;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #ffffff;
+}
+.hiddensearch .keyword {
+  width: 430px;
+  height: 36px;
+  margin: 5px auto;
+  position: relative;
+}
+.hiddensearch .keyword .inputico {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 13px;
+  left: 9px;
+  background: url('../images/spirit.png') 0 -175px;
+}
+.hiddensearch .keyword .searchval {
+  width: 350px;
+  height: 36px;
+  font-size: 12px;
+  border: 2px solid #FF3377;
+  padding-left: 25px;
+  color: #a7a7a7;
+}
+.hiddensearch .keyword .searchbtn {
+  width: 50px;
+  height: 40px;
+  background-color: #FF3377;
+  border: none;
+  line-height: 40px;
+  text-align: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+.hiddensearch .keyword .searchbtn .searchico {
+  display: inline-block;
+  margin-top: 9px;
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  background: url('../images/spirit.png') -33px -175px;
+}
+.back {
+  width: 60px;
+  height: 96px;
+  position: fixed;
+  right: 190px;
+  bottom: 30px;
+  z-index: 10;
+  background-color: #fff;
+  border: 1px solid #999999;
+}
+.back a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+.back a img {
+  position: relative;
+  top: 11px;
+  vertical-align: middle;
+}
+.back .backtop {
+  cursor: pointer;
+}
